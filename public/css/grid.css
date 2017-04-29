@@ -890,6 +890,7 @@
 .clearfix:after,
 .container:after,
 .container-fluid:after,
+
 .row:after {
     clear: both;
 }
