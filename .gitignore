@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+/public/img/dsgn
+.gitignore
+.idea/dulai_lama.iml
+.idea/modules.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+bower_components/
+/public/js/libs/

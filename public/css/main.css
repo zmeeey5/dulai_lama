@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box; }
+  *:before, *:after {
+    box-sizing: border-box; }
+
+a {
+  background-color: transparent;
+  text-decoration: none; }
+  a:hover, a:focus, a:active {
+    outline: 0; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto; }
+
+input[type='text']:focus::-webkit-input-placeholder,
+input[type='tel']:focus::-webkit-input-placeholder,
+input[type='email']:focus::-webkit-input-placeholder,
+input[type='password']:focus::-webkit-input-placeholder,
+input[type='search']:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent !important; }
+
+input[type='text']:focus::-moz-placeholder,
+input[type='tel']:focus::-moz-placeholder,
+input[type='email']:focus::-moz-placeholder,
+input[type='password']:focus::-moz-placeholder,
+input[type='search']:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: transparent !important; }
+
+input[type='text']:focus:-moz-placeholder,
+input[type='tel']:focus:-moz-placeholder,
+input[type='email']:focus:-moz-placeholder,
+input[type='password']:focus:-moz-placeholder,
+input[type='search']:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  color: transparent !important; }
+
+input[type='text']:focus:-ms-input-placeholder,
+input[type='tel']:focus:-ms-input-placeholder,
+input[type='email']:focus:-ms-input-placeholder,
+input[type='password']:focus:-ms-input-placeholder,
+input[type='search']:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  color: transparent !important; }
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #353434; }
+  header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 40px 20px 40px;
+    height: 100%; }
+  header .header-social img {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px; }
+  header .header-menu ul {
+    list-style-image: none;
+    margin: 0 35px 0 35px;
+    padding: 0;
+    width: 60px; }
+    header .header-menu ul li {
+      display: inline-block;
+      font-family: Lato Regular, Helvetica, sans-serif;
+      font-size: 16px;
+      color: white; }
+      header .header-menu ul li a {
+        display: inline-block; }
+
+.main-header {
+  background-color: #353434;
+  color: #fff; }
+
+.col-md-4 {
+  padding: 20px;
+  border: 2px solid red; }
+
+/*# sourceMappingURL=main.css.map */
