@@ -1,4 +1,23 @@
-.col-md-4 {
-  padding: 20px;
-  border: 2px solid red;
+.social-list {
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .list-item {
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #333;
+  }
+}
+
+.social-list {
+  &.header-social {
+    float: right;
+  }
 }

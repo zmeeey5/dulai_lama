@@ -46,38 +46,66 @@ input[type='search']:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
   color: transparent !important; }
 
-header {
+.main-header-wrap {
   height: 80px;
-  width: 100%;
-  background-color: #353434; }
-  header .logo {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 20px 40px 20px 40px;
-    height: 100%; }
-  header .header-social img {
-    display: inline-block;
-    border: 2px solid black;
-    padding: 10px; }
-  header .header-menu ul {
-    list-style-image: none;
-    margin: 0 35px 0 35px;
-    padding: 0;
-    width: 60px; }
-    header .header-menu ul li {
-      display: inline-block;
-      font-family: Lato Regular, Helvetica, sans-serif;
-      font-size: 16px;
-      color: white; }
-      header .header-menu ul li a {
-        display: inline-block; }
-
-.main-header {
   background-color: #353434;
   color: #fff; }
 
-.col-md-4 {
-  padding: 20px;
-  border: 2px solid red; }
+.main-header {
+  margin: 0 auto;
+  background-color: red; }
+  .main-header .logo {
+    display: inline-block;
+    height: 100%;
+    margin: 20px 40px 20px 40px;
+    vertical-align: middle; }
 
-/*# sourceMappingURL=main.css.map */
+.header-menu ul {
+  list-style-type: none;
+  margin: 0 35px 0 35px;
+  padding: 0;
+  width: 60px; }
+  .header-menu ul li {
+    display: inline-block;
+    font-family: Lato Regular, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white; }
+    .header-menu ul li a {
+      display: inline-block; }
+
+.main-header {
+  width: 100%;
+  max-width: 100%;
+  height: 80px; }
+
+@media (min-width: 576px) {
+  .main-header {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .main-header {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .main-header {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .main-header {
+    max-width: 1140px; } }
+
+.social-list:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.social-list .list-item {
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #333; }
+
+.social-list.header-social {
+  float: right; }

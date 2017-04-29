@@ -1,49 +1,94 @@
 $font-stack: Lato Regular, Helvetica, sans-serif;
 
-header {
+.main-header-wrap {
   height: 80px;
-  width: 100%;
   background-color: #353434;
+  color: #fff;
+}
+
+.main-header {
+  margin: 0 auto;
+  background-color: red;
 
   .logo {
     display: inline-block;
-    vertical-align: middle;
-    margin: 20px 40px 20px 40px;
     height: 100%;
+    margin: 20px 40px 20px 40px;
+    vertical-align: middle;
   }
+}
 
-  .header-social {
-    img {
+.header-menu {
+
+  ul {
+    list-style-type: none;
+    margin: 0 35px 0 35px;
+    padding: 0;
+    width: 60px;
+
+    li {
       display: inline-block;
-      border: 2px solid black;
-      padding: 10px;
-    }
-  }
+      font-family: $font-stack;
+      font-size: 16px;
+      color: white;
 
-  .header-menu {
-    ul {
-      list-style-image: none;
-      margin: 0 35px 0 35px;
-      padding: 0;
-      width: 60px;
-      li {
+      a {
         display: inline-block;
-        font-family: $font-stack;
-        font-size: 16px;
-        color: white;
-        a {
-          display: inline-block;
-        }
       }
     }
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-header {
-  background-color: #353434;
-  color: #fff;
+  width: 100%;
+  max-width: 100%;
+  height: 80px;
 }
 
-.header-menu {
-
+@media (min-width: 576px) {
+  .main-header {
+    max-width: 540px;
+  }
 }
+
+@media (min-width: 768px) {
+  .main-header {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-header {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-header {
+    max-width: 1140px;
+  }
+}
+
+
