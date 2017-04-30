@@ -8,56 +8,39 @@ $font-stack: Lato Regular, Helvetica, sans-serif;
 
 .main-header {
   margin: 0 auto;
-  background-color: red;
+  background-color: blue;
 
   .logo {
     display: inline-block;
     height: 100%;
     margin: 20px 40px 20px 40px;
     vertical-align: middle;
+    float: left;
   }
 }
 
 .header-menu {
-
   ul {
     list-style-type: none;
     margin: 0 35px 0 35px;
     padding: 0;
     width: 60px;
+    float: left;
 
     li {
-      display: inline-block;
+      display: block;
       font-family: $font-stack;
       font-size: 16px;
       color: white;
+      float: left;
 
       a {
         display: inline-block;
+        float: left;
       }
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

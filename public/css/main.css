@@ -53,25 +53,29 @@ textarea:focus:-ms-input-placeholder {
 
 .main-header {
   margin: 0 auto;
-  background-color: red; }
+  background-color: blue; }
   .main-header .logo {
     display: inline-block;
     height: 100%;
     margin: 20px 40px 20px 40px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    float: left; }
 
 .header-menu ul {
   list-style-type: none;
   margin: 0 35px 0 35px;
   padding: 0;
-  width: 60px; }
+  width: 60px;
+  float: left; }
   .header-menu ul li {
-    display: inline-block;
+    display: block;
     font-family: Lato Regular, Helvetica, sans-serif;
     font-size: 16px;
-    color: white; }
+    color: white;
+    float: left; }
     .header-menu ul li a {
-      display: inline-block; }
+      display: inline-block;
+      float: left; }
 
 .main-header {
   width: 100%;
