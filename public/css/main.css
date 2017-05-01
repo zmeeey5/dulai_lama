@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
 * {
   box-sizing: border-box; }
   *:before, *:after {
@@ -53,7 +54,7 @@ textarea:focus:-ms-input-placeholder {
 
 .main-header {
   margin: 0 auto;
-  background-color: blue; }
+  background-color: red; }
   .main-header .logo {
     display: inline-block;
     height: 100%;
@@ -63,19 +64,39 @@ textarea:focus:-ms-input-placeholder {
 
 .header-menu ul {
   list-style-type: none;
-  margin: 0 35px 0 35px;
-  padding: 0;
-  width: 60px;
+  margin: 0px 35px auto 35px;
+  padding: 20px 20px;
   float: left; }
   .header-menu ul li {
-    display: block;
-    font-family: Lato Regular, Helvetica, sans-serif;
+    display: inline-block;
+    font-family: "Lato", Helvetica, sans-serif;
     font-size: 16px;
+    margin: 5px 5px 5px 5px;
     color: white;
-    float: left; }
+    float: right; }
     .header-menu ul li a {
-      display: inline-block;
-      float: left; }
+      text-decoration: none;
+      color: black; }
+
+.header-social {
+  padding: 20px 20px; }
+
+.social-list:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.social-list .list-item {
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #333;
+  list-style-type: none; }
+
+.social-list.header-social {
+  float: right; }
 
 .main-header {
   width: 100%;
@@ -97,19 +118,3 @@ textarea:focus:-ms-input-placeholder {
 @media (min-width: 1200px) {
   .main-header {
     max-width: 1140px; } }
-
-.social-list:after {
-  content: '';
-  display: table;
-  clear: both; }
-
-.social-list .list-item {
-  float: left;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  margin: 5px;
-  border: 1px solid #333; }
-
-.social-list.header-social {
-  float: right; }
