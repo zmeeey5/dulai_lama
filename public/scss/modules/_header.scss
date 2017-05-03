@@ -1,4 +1,4 @@
-$lato-regular: 'Lato', Helvetica, sans-serif;
+$lato-regular: 'Lato Regular', Helvetica, sans-serif;
 
 .main-header-wrap {
   height: 80px;
@@ -13,7 +13,8 @@ $lato-regular: 'Lato', Helvetica, sans-serif;
   .logo {
     display: inline-block;
     height: 100%;
-    margin: 20px 40px 20px 40px;
+    margin: 0 40px 0 40px;
+    padding-top: 20px;
     vertical-align: middle;
     float: left;
   }
@@ -22,7 +23,7 @@ $lato-regular: 'Lato', Helvetica, sans-serif;
 .header-menu {
   ul {
     list-style-type: none;
-    margin: 0px 35px auto 35px;
+    margin: 0 0 0 35px;
     padding: 20px 20px;
     float: left;
 
@@ -30,7 +31,7 @@ $lato-regular: 'Lato', Helvetica, sans-serif;
       display: inline-block;
       font-family: $lato-regular;
       font-size: 16px;
-      margin: 5px 5px 5px 5px;
+      padding: 5px 5px 5px 5px;
       color: white;
       float: right;
 
@@ -43,7 +44,7 @@ $lato-regular: 'Lato', Helvetica, sans-serif;
 }
 
 .header-social {
-  padding: 20px 20px;
+  padding-top: 20px;
 }
 
 .social-list {
@@ -58,9 +59,10 @@ $lato-regular: 'Lato', Helvetica, sans-serif;
     width: 30px;
     height: 30px;
     text-align: center;
-    margin: 5px;
+    margin: 0 5px;
     border: 1px solid #333;
     list-style-type: none;
+
   }
 }
 

@@ -4,6 +4,9 @@
 @import "modules/menu-block";
 @import "modules/footer";
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: 'Lato Regular';
+  src:  url('../fonts/Lato/fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato/fonts/Lato-Regular.woff2') format('woff2');
+}
 
-$lato-regular: 'Lato', Helvetica, sans-serif;
