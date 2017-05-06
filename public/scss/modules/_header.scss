@@ -8,14 +8,14 @@ $lato-regular: 'Lato Regular', Helvetica, sans-serif;
 
 .main-header {
   margin: 0 auto;
-  background-color: red;
+  background-color: #353434;
 
   .logo {
     display: inline-block;
-    height: 100%;
-    margin: 0 40px 0 40px;
-    padding-top: 20px;
+    margin: 25px 40px 0 40px;
+    padding-right: 40px;
     vertical-align: middle;
+    border-right: 1px solid #404040;
     float: left;
   }
 }
@@ -23,7 +23,6 @@ $lato-regular: 'Lato Regular', Helvetica, sans-serif;
 .header-menu {
   ul {
     list-style-type: none;
-    margin: 0 0 0 35px;
     padding: 20px 20px;
     float: left;
 
@@ -37,14 +36,15 @@ $lato-regular: 'Lato Regular', Helvetica, sans-serif;
 
       a {
         text-decoration: none;
-        color: black;
+        color: white;
       }
     }
   }
 }
 
 .header-social {
-  padding-top: 20px;
+  padding-top: 25px;
+  margin-right: 15px;
 }
 
 .social-list {
@@ -60,7 +60,7 @@ $lato-regular: 'Lato Regular', Helvetica, sans-serif;
     height: 30px;
     text-align: center;
     margin: 0 5px;
-    border: 1px solid #333;
+    border: 2px solid white;
     list-style-type: none;
 
   }
