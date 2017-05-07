@@ -1,5 +1,16 @@
+$avant-garde-lt: 'Avant Garde LT Extra Light', Helvetica, sans-serif;
+
 .image-backgr {
-  max-height: 580px;
-  width: 100px;
+  height: 580px;
+  width: 100%;
   background-image: url("../images/slider-background.png");
+}
+
+.image-text {
+
+  text-transform: uppercase;
+  font-family: $avant-garde-lt;
+  font-size: 35px;
+  color: black;
+  background: rgba(0,255,255,0.2);
 }

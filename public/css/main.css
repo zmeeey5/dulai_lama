@@ -120,10 +120,21 @@ textarea:focus:-ms-input-placeholder {
     max-width: 1140px; } }
 
 .image-backgr {
-  max-height: 580px;
-  width: 100px;
+  height: 580px;
+  width: 100%;
   background-image: url("../images/slider-background.png"); }
+
+.image-text {
+  text-transform: uppercase;
+  font-family: "Avant Garde LT Extra Light", Helvetica, sans-serif;
+  font-size: 35px;
+  color: black;
+  background: rgba(0, 255, 255, 0.2); }
 
 @font-face {
   font-family: 'Lato Regular';
   src: url("../fonts/Lato/fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato/fonts/Lato-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Avant Garde LT Extra Light';
+  src: url("../fonts/Avant Garde/itc-avant-garde-gothic-lt-extra-light.woff") format("woff"), url("../fonts/Avant Garde/itc-avant-garde-gothic-lt-extra-light.woff2") format("woff2"); }
