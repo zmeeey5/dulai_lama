@@ -129,7 +129,8 @@ textarea:focus:-ms-input-placeholder {
   font-family: "Avant Garde LT Extra Light", Helvetica, sans-serif;
   font-size: 35px;
   color: black;
-  background: rgba(0, 255, 255, 0.2); }
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px; }
 
 @font-face {
   font-family: 'Lato Regular';
