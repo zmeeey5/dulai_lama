@@ -132,6 +132,15 @@ textarea:focus:-ms-input-placeholder {
   background: rgba(255, 255, 255, 0.5);
   padding: 20px; }
 
+.menu-item {
+  display: inline-block; }
+  .menu-item .menu-text {
+    width: 240px;
+    height: 130px; }
+    .menu-item .menu-text .menu-text-content {
+      font-family: "Lato Regular", Helvetica, sans-serif;
+      font-size: 15px; }
+
 @font-face {
   font-family: 'Lato Regular';
   src: url("../fonts/Lato/fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato/fonts/Lato-Regular.woff2") format("woff2"); }
