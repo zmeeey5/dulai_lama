@@ -1,10 +1,26 @@
+$lato-bold: 'Lato Bold', Helvetica, sans-serif;
+.menu {
+  min-height: 545px;
+
+}
+
 .menu-item {
   display: inline-block;
+  width: 345px;
+  height: 130px;
   .menu-text {
+    display: inline-block;
     width: 240px;
-    height: 130px;
+    .menu-text-title {
+      font-family: $lato-bold;
+      font-size: 22px;
+    }
     .menu-text-content {
       font-family: $lato-regular;
+      font-size: 15px;
+    }
+    .menu-text-details {
+      font-family: $lato-bold;
       font-size: 15px;
     }
   }
