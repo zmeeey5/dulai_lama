@@ -6,11 +6,9 @@ $lato-bold: 'Lato Bold', Helvetica, sans-serif;
 
 .menu-item {
   display: inline-block;
-  width: 345px;
   height: 130px;
   .menu-text {
     display: inline-block;
-    width: 240px;
     .menu-text-title {
       font-family: $lato-bold;
       font-size: 22px;

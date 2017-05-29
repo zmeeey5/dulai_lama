@@ -137,11 +137,9 @@ textarea:focus:-ms-input-placeholder {
 
 .menu-item {
   display: inline-block;
-  width: 345px;
   height: 130px; }
   .menu-item .menu-text {
-    display: inline-block;
-    width: 240px; }
+    display: inline-block; }
     .menu-item .menu-text .menu-text-title {
       font-family: "Lato Bold", Helvetica, sans-serif;
       font-size: 22px; }
@@ -151,6 +149,25 @@ textarea:focus:-ms-input-placeholder {
     .menu-item .menu-text .menu-text-details {
       font-family: "Lato Bold", Helvetica, sans-serif;
       font-size: 15px; }
+
+.testimonials {
+  height: 580px;
+  padding: 130px 230px; }
+  .testimonials .testimonials-header {
+    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center; }
+  .testimonials .testimonials-text {
+    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 75px; }
+  .testimonials .testimonials-credits {
+    font-family: "Lato Bold", Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px; }
 
 @font-face {
   font-family: 'Lato Regular';
