@@ -169,6 +169,34 @@ textarea:focus:-ms-input-placeholder {
     text-align: center;
     margin-top: 40px; }
 
+.more-details-image {
+  height: 406px;
+  background-image: url("../images/about-background.png");
+  float: left;
+  width: 50%; }
+
+.more-details-text {
+  height: 406px;
+  background-color: #3b3b3b;
+  float: right;
+  width: 50%;
+  padding: 40px 70px; }
+  .more-details-text .more-details-text-header {
+    color: white;
+    font-family: "Lato Bold", Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 55px; }
+  .more-details-text .more-details-text-main {
+    color: white;
+    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px; }
+  .more-details-text .more-details-text-link {
+    color: white;
+    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-size: 16px; }
+
 @font-face {
   font-family: 'Lato Regular';
   src: url("../fonts/Lato/fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato/fonts/Lato-Regular.woff2") format("woff2"); }

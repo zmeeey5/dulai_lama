@@ -1,0 +1,34 @@
+$lato-regular: 'Lato Regular', Helvetica, sans-serif;
+$lato-bold: 'Lato Bold', Helvetica, sans-serif;
+
+.more-details-image {
+  height: 406px;
+  background-image: url("../images/about-background.png");
+  float: left;
+  width: 50%;
+}
+.more-details-text {
+  height: 406px;
+  background-color: #3b3b3b;
+  float: right;
+  width: 50%;
+  padding: 40px 70px;
+  .more-details-text-header {
+    color: white;
+    font-family: $lato-bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+  }
+  .more-details-text-main {
+    color: white;
+    font-family: $lato-regular;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .more-details-text-link {
+    color: white;
+    font-family: $lato-regular;
+    font-size: 16px;
+  }
+}
