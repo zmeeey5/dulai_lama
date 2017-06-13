@@ -197,6 +197,28 @@ textarea:focus:-ms-input-placeholder {
     font-family: "Lato Regular", Helvetica, sans-serif;
     font-size: 16px; }
 
+.sign-up {
+  height: 375px; }
+  .sign-up .sign-up-header {
+    font-family: "Lato Bold", Helvetica, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center; }
+  .sign-up .sign-up-text {
+    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center; }
+  .sign-up .sign-up-button {
+    color: #65bf95;
+    height: 50px;
+    width: 260px; }
+    .sign-up .sign-up-button span {
+      color: white;
+      font-family: "Lato Regular", Helvetica, sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center; }
+
 @font-face {
   font-family: 'Lato Regular';
   src: url("../fonts/Lato/fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato/fonts/Lato-Regular.woff2") format("woff2"); }

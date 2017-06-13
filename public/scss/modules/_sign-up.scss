@@ -1,0 +1,31 @@
+$lato-bold: 'Lato Bold', Helvetica, sans-serif;
+$lato-regular: 'Lato Regular', Helvetica, sans-serif;
+
+.sign-up {
+  height: 375px;
+  .sign-up-header {
+    font-family: $lato-bold;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .sign-up-text {
+    font-family: $lato-regular;
+    font-size: 17px;
+    text-align: center;
+  }
+  .sign-up-button {
+    color: #65bf95;
+    height: 50px;
+    width: 260px;
+    span {
+      color: white;
+      font-family: $lato-regular;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+  }
+
+}
