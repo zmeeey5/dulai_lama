@@ -1,0 +1,18 @@
+$lato-regular: 'Lato Regular', Helvetica, sans-serif;
+
+footer {
+  height: 275px;
+  background-color: #f7f7f7;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  .footer-logo {
+    width: 75px;
+    margin: auto;
+  }
+  .footer-text {
+    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 35px;
+  }
+}

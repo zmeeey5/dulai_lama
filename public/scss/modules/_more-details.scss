@@ -4,12 +4,15 @@ $lato-bold: 'Lato Bold', Helvetica, sans-serif;
 .more-details-image {
   height: 406px;
   background-image: url("../images/about-background.png");
-  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
   width: 50%;
 }
 .more-details-text {
   height: 406px;
   background-color: #3b3b3b;
+  display: inline-block;
   float: right;
   width: 50%;
   padding: 40px 70px;

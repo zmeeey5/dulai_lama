@@ -1,9 +1,16 @@
 $avant-garde-lt: 'Avant Garde LT Extra Light', Helvetica, sans-serif;
 
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .image-backgr {
   height: 580px;
   width: 100%;
   background-image: url("../images/slider-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image-text {
@@ -13,4 +20,5 @@ $avant-garde-lt: 'Avant Garde LT Extra Light', Helvetica, sans-serif;
   color: black;
   background: rgba(255,255,255,0.5);
   padding: 20px;
+  margin-top: 220px;
 }
